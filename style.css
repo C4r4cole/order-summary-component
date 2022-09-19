@@ -1,0 +1,124 @@
+*{
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body{
+    background: url("./images/pattern-background-desktop.svg") fixed no-repeat,
+    hsl(225, 100%, 94%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    width: 300px;
+    height: 500px;
+    background: white;
+    border-radius: 15px;
+}
+
+.image1 img{
+    width: 300px;
+    border-radius: 15px 15px 0 0;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+
+h1{
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    font-size: 20px;
+}
+
+p{
+    color: hsl(224, 23%, 55%);
+    width: 250px;
+    font-size: 13px;
+    text-align: center;
+}
+
+/* class du text Annual Plan */
+.plan{
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+.iconMusic{
+display: flex;
+width: 250px;
+justify-content: space-around;
+align-items: center;
+background: hsl(225, 100%, 98%);
+border-radius: 12px;
+}
+
+.iconMusic img{
+    height: 35px;
+}
+
+.iconMusic p{
+    width: 100px;
+}
+
+.iconMusic1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.change{
+    font-size: 12px;
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.change:active{
+    color: rgb(118, 108, 240);
+}
+
+.buttons{
+    height: 120px;
+    width: 250px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+input{
+    height: 40px;
+    font-size: 12px;
+    background: hsl(245, 75%, 52%);
+    border: 2px solid hsl(245, 75%, 52%);
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0px 12px 14px 5px rgba(67,6,255,0.15);
+    cursor: pointer;
+}
+
+input:active{
+    background: rgb(118, 108, 240);
+    border: 2px solid rgb(118, 108, 240);
+    box-shadow: 0px 12px 14px 5px rgb(118, 108, 240, 0,15);
+}
+
+.cancel{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+    color: hsl(224, 23%, 55%);
+    cursor: pointer;
+}
+
+.cancel:active{
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
